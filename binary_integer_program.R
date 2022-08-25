@@ -17,7 +17,8 @@ Ks <- 1
 tm_size <- RBs+WRs+TEs+QBs+Flexs+SFlexs+DSTs+Ks
 
 
-data <- read.csv('C:/users/jdash/documents/tdj/2022/auction_strategy/proj_cost_data_full.csv',stringsAsFactors = FALSE)
+dsetwd(getSrcDirectory()[1])
+data <- read.csv('./proj_cost_data_half.csv',stringsAsFactors = FALSE)
 nplayers <- length(data$Players)
 
 
