@@ -18,7 +18,7 @@ tm_size <- RBs+WRs+TEs+QBs+Flexs+SFlexs+DSTs+Ks
 
 
 dsetwd(getSrcDirectory()[1])
-data <- read.csv('./proj_cost_data_half.csv',stringsAsFactors = FALSE)
+data <- read.csv('./data/proj_cost_data_half.csv',stringsAsFactors = FALSE)
 nplayers <- length(data$Players)
 
 
